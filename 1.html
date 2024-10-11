@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #wrap {
+      overflow: hidden;
+      position: relative;
+      width: 200px;
+      height: 200px;
+      white-space: nowrap;
+    }
+    #inner {
+      position: absolute;
+      animation: slide 5s linear infinite;
+    }
+    #first {
+      display: inline-block;
+    }
+    #second {
+      display: inline-block;
+    }
+
+    @keyframes slide {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+  </style>
+  <body>
+    <div id="wrap">
+      <div id="inner">
+        <span id="first">本店主营拉面，刀削面，烩面，盖浇饭1111111111</span>
+        <span id="second">本店主营拉面，刀削面，烩面，盖浇饭1111111111</span>
+      </div>
+    </div>
+  </body>
+</html>
