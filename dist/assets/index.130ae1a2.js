@@ -1,0 +1,1 @@
+import{d as a,c as n,a as s,b as c,t as m,e as r,u as l,o as i}from"./index.2b4d45c6.js";const f=a({__name:"index",setup(p){const e=l(),o=n(()=>e.state.common.name),t=()=>{console.log(e),e.dispatch("common/setName","zhangyi")};return(u,d)=>(i(),s("div",null,[c(m(o.value)+" ",1),r("button",{onClick:t},"click")]))}});export{f as default};
